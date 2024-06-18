@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="search/CSS/style.css">
+    <script src="search/JS/script.js"></script>
+</head>
+<body>
+    <header id="menu_header">
+        <a href="index.html" id="LDIM">Loja de Instrumentos Musicais</a>
+    <nav id="menu_nav">
+      <ul>
+        <li>
+          <a href="login.html">Login</a>
+        </li>
+        <li>
+          <a href="contato.html">Contato</a>
+        </li>
+        <li>
+          <a href="quiz.html">Quiz</a>
+        </li>
+        <li>
+          <a href="sobre.html">Sobre</a>
+        </li>
+        <li>
+          <button id="btn_color" onclick="changeBackground()">COR</img></button>
+        </li>
+      </ul>
+    </nav>
+    </header><br>
+ <main>
+    <h1 id="titulo_login">Faça seu login na LDIM</h1>
+    <div id="login">
+        <div id="formulario_login">
+        <form>
+            <legend id="Login_legend">Login</legend>
+
+            <p id="usuario">Usuário:<input type="text" placeholder="Digite seu usuário" id="usuario"></p>
+
+            <p id="senha">Senha:<input type="password" placeholder="Digite sua senha" id="senha"></p>
+
+            <button onclick="validar()" id="btn_login">Login</button>
+        </form>
+        </div>
+    </div>
+ </main>
+</body>
+</html>

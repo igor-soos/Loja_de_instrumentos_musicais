@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="search/CSS/style.css">
+    <script src="search/JS/script.js"></script>
+</head>
+<body>
+    <header id="menu_header">
+        <a href="index.html" id="LDIM">Loja de Instrumentos Musicais</a>
+    <nav id="menu_nav">
+      <ul>
+        <li>
+          <a href="login.html">Login</a>
+        </li>
+        <li>
+          <a href="contato.html">Contato</a>
+        </li>
+        <li>
+          <a href="quiz.html">Quiz</a>
+        </li>
+        <li>
+          <a href="sobre.html">Sobre</a>
+        </li>
+        <li>
+          <button id="btn_color" onclick="changeBackground()">COR</img></button>
+        </li>
+      </ul>
+    </nav>
+    </header><br>
+
+<main>
+    <h1 id="titulo_contato">Faça seu contato com a LDIM</h1>
+    <div id="contato">
+        <div id="formulario_contato">
+        <form>
+            <legend id="contato_legend">contato</legend>
+
+            <p>Nome:<input type="text" placeholder="Digite seu nome" id="idNome"></p>
+
+            <p>Telefone:<input type="text" placeholder="Digite seu telefone" id="idTelefone"></p>
+
+            <p>Email:<input type="text" placeholder="Digite seu e-mail" id="idEmail"></p>
+
+            <button onclick="enviar()" id="btn_enviar">Enviar</button>
+        </form>
+        </div>
+    </div>
+ </main>
+    
+</body>
+</html>
