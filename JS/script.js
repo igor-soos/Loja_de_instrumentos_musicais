@@ -39,9 +39,9 @@ function createSlideshow(images, targetId) {
 }
 
 let time = 2500;
-createSlideshow(["././search/img/bateria/bateria1.avif", "././search/img/bateria/bateria1.avif", "././search/img/bateria/bateria1.avif"], "slideshowImage1");
-createSlideshow(["././search/img/microfone/microfone1.jpg", "././search/img/microfone/microfone2.jpg", "././search/img/microfone/microfone3.avif"], "slideshowImage2");
-createSlideshow(["././search/img/violao/violao1.avif", "././search/img/violao/violao2.jpg", "././search/img/violao/violao3.avif"], "slideshowImage3");
+createSlideshow(["./img/bateria/bateria1.avif", "./img/bateria/bateria1.avif", "./bateria/bateria1.avif"], "slideshowImage1");
+createSlideshow(["./img/microfone/microfone1.jpg", "./img/microfone/microfone2.jpg", "./microfone/microfone3.avif"], "slideshowImage2");
+createSlideshow(["./img/violao/violao1.avif", "./img/violao/violao2.jpg", "./img/violao/violao3.avif"], "slideshowImage3");
 
 
 /*login*/
